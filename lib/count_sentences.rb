@@ -22,6 +22,7 @@ class String
     elsif sentence.length = 1
       return 1
     else
-      return sentence.length 
+      return sentence.length
+    end
   end
 end
