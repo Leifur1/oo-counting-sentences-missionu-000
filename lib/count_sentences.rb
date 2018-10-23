@@ -7,7 +7,7 @@ class String
   if self.string.end_with? = "."
     true
   else
-    false  
+    false
   end
 
   def question?
