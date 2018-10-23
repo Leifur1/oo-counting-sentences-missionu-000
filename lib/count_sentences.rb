@@ -15,7 +15,13 @@ class String
   end
 
   def count_sentences
-    sentence = self.splt(".","!","?")
-    sentence.length + 1
+    sentence = []
+    sentence << self.splt(".","!","?")
+    if sentence = []
+      return 0
+    elsif sentence.length = 1
+      return 1
+    else
+      return sentence.length 
   end
 end
